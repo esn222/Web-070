@@ -1,6 +1,9 @@
 /* a minimalist set of CSS resets */
 
 /* default to border-box */
+
+h1 { color: #AEC7A1; text-align: center; }
+
 html {
     box-sizing: border-box;
     font-size: 16px;
