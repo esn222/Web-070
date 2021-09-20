@@ -2,7 +2,7 @@
 
 /* default to border-box */
 
-h1 { color: #AEC7A1; text-align: center; }
+h1 { color: #AEC7A1; text-align: center; font-family: font/'Abril Fatface', cursive; }
 
 html {
     box-sizing: border-box;
