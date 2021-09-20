@@ -10,17 +10,15 @@ html {
     box-sizing: inherit;
   }
   
-  /* adjust typography defaults */
   body {
     margin: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    color:#5B7A4B;
+    color:#FFE8FF;
     background-color:#C8A2C8;
   
   }
-  
-  /* images and videos max out at full width */
+
   img,
   video {
     height: auto;
