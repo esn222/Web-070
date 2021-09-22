@@ -20,6 +20,8 @@ html {
   div {
     border: 2px ; color:#AEC7A1;
     border-radius: 25px;
+    border-style:solid;
+    padding: 1em;
   }
   
   body {
