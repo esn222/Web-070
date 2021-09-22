@@ -17,6 +17,10 @@ html {
     box-sizing: inherit;
   }
 
+  div {
+    border: 2px ; color:#AEC7A1;
+    border-radius: 25px;
+  }
   
   body {
     margin: 1rem;
