@@ -8,6 +8,13 @@ h2 { color: #ffffff; font-family: 'Raleway', sans-serif; font-size: 18px; }
 
 a { color: #dff0d6; font-family: 'Raleway', sans-serif; font-size: 14px; }
 
+div {
+  border: 2px ; color:#AEC7A1;
+  border-radius: 25px;
+  border-style:solid;
+  padding: 1em;
+}
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -17,12 +24,7 @@ html {
     box-sizing: inherit;
   }
 
-  div {
-    border: 2px ; color:#AEC7A1;
-    border-radius: 25px;
-    border-style:solid;
-    padding: 1em;
-  }
+
   
   body {
     margin: 1rem;
