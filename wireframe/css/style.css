@@ -5,7 +5,7 @@
   grid-auto-rows: 200px 200px 200px;
 }
 .one {
-  grid-column: 1;
+  grid-column-start: span 3;
   grid-row: 1;
   background-color:#0093FF;
   text-align: center;
