@@ -1,42 +1,55 @@
+body {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height:3;
+}
+header {
+  background: orangered
+}
+main {
+  background: darkslateblue;
+}
+footer {
+  background:deeppink;
+}
+.left-sidebar {
+  background: dodgerblue;
+}
+.right-siderbar {
+  background:forestgreen
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (min-width: 768px) }
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-h1 { color: #AEC7A1; text-align: center; font-family: 'Abril Fatface', cursive; font-size: 36px; }
-h2 { color: #ffffff; font-family: 'Raleway', sans-serif; font-size: 18px; }
-
-
-a { color: #dff0d6; font-family: 'Raleway', sans-serif; font-size: 14px; }
-
-div {
-  border: 5px ; color:#AEC7A1;
-  border-radius: 25px;
-  border-style:solid;
-  padding: 1em;
+header,
+footer {
+  width: 100%;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+main {
+  flex: 2;
+  order: 2;
+  min-height: 80vh;
+}
 
+.left-sidebar {
+  order: 1;
+  flex: 1;
+}
 
-  
-  body {
-    margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    color:#FFE8FF;
-    background-color:#C8A2C8;
-  
-  }
+.right-siderbar {
+  flex: 1;
+  order:3;
+}
 
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
-  }
+footer {
+  order: 4;
+}
