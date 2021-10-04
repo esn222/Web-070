@@ -23,16 +23,12 @@ footer {
   display: flex;
   flex-direction: column;
 }
-@media all and (min-width: 768px) }
-  .container {
+
+@media all and (min-width: 768px) {
+  .content {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-header,
-footer {
-  width: 100%;
-}
 
 main {
   flex: 2;
@@ -52,4 +48,6 @@ main {
 
 footer {
   order: 4;
+}
+
 }
