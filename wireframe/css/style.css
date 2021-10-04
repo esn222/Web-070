@@ -15,20 +15,34 @@
   grid-column: 2;
   grid-row: 2;
   background-color: fuchsia;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .three {
   grid-column: 1;
   grid-row: 3;
+  background-color:saddlebrown;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .four {
   grid-column: 3;
   grid-row: 4;
+  background-color:salmon;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .five {
   grid-column: 2;
   grid-row: 5;
+  background-color:seagreen;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .six {
   grid-column: 3;
   grid-row: 6;
+  background-color:tan;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
