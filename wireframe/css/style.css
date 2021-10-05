@@ -1,6 +1,7 @@
 .wrapper {
   display: grid;
   color: white;
+  text-align: center;
   grid-template-columns: repeat(12, 1fr);
   gap: 0px;
   grid-template-rows: repeat(6, 1fr);
