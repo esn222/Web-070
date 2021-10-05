@@ -7,7 +7,7 @@
   gap: 0px;
   grid-template-rows: repeat(6, 1fr);
 }
-.one {
+.p {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row: 1;
