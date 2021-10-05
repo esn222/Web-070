@@ -1,0 +1,95 @@
+.wrapper {
+  display: grid;
+  color: white;
+  text-align: center;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0px;
+  grid-template-rows: repeat(6, 1fr);
+}
+.one {
+  grid-column: 1 / span 12;
+  grid-row: 1;
+  padding: 30px 30px 30px 30px;
+  background-color:#0093FF;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.two {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row: 2;
+  padding: 75px;
+  background-color:#EAAC21;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.three {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row: 2;
+  padding: 75px;
+  background-color:#FFE200;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.four {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row: 3;
+  padding: 75px;
+  background-color:#65BCB5;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.five {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row: 3;
+  padding: 75px;
+  background-color:#0093FF;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.six {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 4;
+  padding: 75px;
+  background-color:#EAAC21;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.seven {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row: 4;
+  padding: 75px;
+  background-color:#FFE200;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.eight {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row: 4;
+  padding: 75px;
+  background-color:#EAAC21;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nine {
+  grid-column: 1 / span 13;
+  grid-row: 5;
+  padding: 75px;
+  background-color:#65BCB5;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.ten {
+  grid-column: 1 / span 13;
+  grid-row: 6;
+  padding: 10px 10px 10px 10px;
+  background-color:#0093FF;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
