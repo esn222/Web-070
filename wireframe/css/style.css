@@ -1,5 +1,6 @@
 .wrapper {
   display: grid;
+  color: white;
   grid-template-columns: repeat(12, 1fr);
   gap: 0px;
   grid-template-rows: repeat(6, 1fr);
@@ -9,7 +10,6 @@
   grid-row: 1;
   padding: 75px;
   background-color:#0093FF;
-  color: white;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
