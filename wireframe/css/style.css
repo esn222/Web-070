@@ -12,7 +12,7 @@
   font-family: 'Courier New', Courier, monospace;
 }
 .two {
-  grid-column: 2 / span 6;
+  grid-column-start: 1 / span 6;
   grid-row: 2;
   background-color: fuchsia;
   text-align: center;
