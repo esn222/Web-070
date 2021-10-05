@@ -1,13 +1,13 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
+  gap: 0px;
   grid-template-rows: repeat(6, 1fr);
 }
 .one {
   grid-column: 1 / span 12;
   grid-row: 1;
-  padding: 35px;
+  padding: 75px;
   background-color:#0093FF;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
