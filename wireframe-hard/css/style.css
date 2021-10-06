@@ -31,11 +31,11 @@
 .three {
   grid-column-start: 9;
   grid-column-end: 13;
-  position: fixed;
   grid-row: 1;
   padding: 100px;
   background-color:#3D4BF5;
   text-align: center;
+  overflow: hidden;
 }
 .four {
   grid-column-start: 1;
