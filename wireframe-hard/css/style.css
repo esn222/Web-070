@@ -6,7 +6,7 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 0px;
   grid-template-rows: repeat(6, 1fr);
-  border: 10px #FFA700;
+  border-color: black;
 }
 .p {
   grid-column-start: 1;
