@@ -14,7 +14,7 @@ body {
 .wrapper >div {
   display: grid;
   color: white;
-  border: 2px solid #FFA700;
+  border: 5px solid #FFA700;
   vertical-align: middle;
   padding: 100px;
 }
