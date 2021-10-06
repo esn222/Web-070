@@ -44,6 +44,7 @@ body {
   display: grid;
   border-left: 5px solid #FFA700;
   border-top: 5px solid #FFA700;
+  border-bottom: 5px solid #FFA700;
   vertical-align: middle;
   padding: 50px;
 }
@@ -127,5 +128,4 @@ body {
   grid-column-end: 5;
   grid-row: 1;
   background-color:#E8C4A1;
-  border-bottom: 5px solid #FFA700;
 }
