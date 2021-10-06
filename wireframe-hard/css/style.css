@@ -11,7 +11,7 @@
   display: grid;
   color: white;
   border: 2px solid #FFA700;
-  position: relative;
+  vertical-align:middle;
 }
 .one {
   grid-column-start: 1;
