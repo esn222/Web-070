@@ -30,7 +30,7 @@
 }
 .three {
   grid-column-start: 9;
-  grid-column-end: 13;
+  grid-column-end: span 4;
   grid-row: 1;
   padding: 100px;
   background-color:#3D4BF5;
@@ -103,7 +103,7 @@
 }
 .twelve {
   grid-column-start: 10;
-  grid-column-end: 13;
+  grid-column-end: span 3;
   grid-row: 5;
   padding: 100px;
   background-color:#EAAC21;
