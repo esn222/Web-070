@@ -84,7 +84,9 @@
   padding: 50px;
   background-color:#3D4BF5;
   text-align: center;
-  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 .ten {
   grid-column-start: 4;
