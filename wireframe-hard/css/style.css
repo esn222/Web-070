@@ -28,7 +28,8 @@ body {
 }
 .wrapper2 >div {
   display: grid;
-  border: 2px solid #FFA700;
+  border-left: 5px solid #FFA700;
+  border-top: 5px solid #FFA700;
   vertical-align: middle;
   padding: 100px;
 }
