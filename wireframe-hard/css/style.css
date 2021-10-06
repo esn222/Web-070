@@ -5,6 +5,8 @@
   font-family: 'Courier New', Courier, monospace;
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
+  background-color: #FFA700;
+  margin: 10px;
   grid-template-rows: repeat(6, 1fr);
 }
 .one {
