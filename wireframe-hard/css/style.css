@@ -13,7 +13,7 @@
   grid-column-end: 5;
   grid-row: 1;
   padding: 75px;
-  outline: 10px solid #FFA700;
+  outline: 10px 10px 10px 10px solid #FFA700;
   background-color: #3D4BF5;
   text-align: center;
 }
