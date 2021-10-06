@@ -24,7 +24,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0px;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1;
 }
 .wrapper2 >div {
   display: grid;
@@ -34,6 +34,19 @@ body {
   padding: 100px;
 }
 
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+  grid-template-rows: 1;
+}
+.footer >div {
+  display: grid;
+  border-left: 5px solid #FFA700;
+  border-top: 5px solid #FFA700;
+  vertical-align: middle;
+  padding: 50px;
+}
 
 .one {
   grid-column-start: 1;
@@ -112,7 +125,7 @@ body {
 .thirteen {
   grid-column-start: 1;
   grid-column-end: 5;
-  grid-row: 2;
+  grid-row: 1;
   background-color:#E8C4A1;
   border-bottom: 5px solid #FFA700;
 }
