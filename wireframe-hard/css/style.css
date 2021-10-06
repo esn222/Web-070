@@ -35,6 +35,21 @@ body {
 }
 
 
+.wrapper3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+  grid-template-rows: 1;
+}
+.wrapper3 >div {
+  display: grid;
+  border-left: 5px solid #FFA700;
+  border-top: 5px solid #FFA700;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+
 .one {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -112,8 +127,7 @@ body {
 .thirteen {
   grid-column-start: 1;
   grid-column-end: 5;
-  grid-row: 2;
-  grid-template-rows: minmax(max(50px));
+  grid-row: 1;
   background-color:#E8C4A1;
   border-bottom: 5px solid #FFA700;
 }
