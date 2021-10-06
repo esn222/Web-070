@@ -5,7 +5,6 @@
   font-family: 'Courier New', Courier, monospace;
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
-  border-radius: 10px black;
   grid-template-rows: repeat(6, 1fr);
 }
 .one {
@@ -14,6 +13,7 @@
   grid-row: 1;
   padding: 75px;
   background-color: #3D4BF5;
+  border-radius: 10px black;
   text-align: center;
 }
 .two {
