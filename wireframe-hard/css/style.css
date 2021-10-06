@@ -5,18 +5,16 @@
   font-family: 'Courier New', Courier, monospace;
   grid-template-columns: repeat(12, 1fr);
   gap: 0px;
-  background-color: #FFA700;
   grid-template-rows: repeat(6, 1fr);
 }
 .wrapper >div {
   display: grid;
   color: white;
-  border: 10px solid black;
+  border: 2px solid black;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   grid-template-columns: repeat(12, 1fr);
   gap: 0px;
-  background-color: #FFA700;
   grid-template-rows: repeat(6, 1fr);
 }
 .one {
@@ -24,7 +22,6 @@
   grid-column-end: 5;
   grid-row: 1;
   padding: 75px;
-  outline: 10px 10px 10px 10px solid #FFA700;
   background-color: #3D4BF5;
   text-align: center;
 }
