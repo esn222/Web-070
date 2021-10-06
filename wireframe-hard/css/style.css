@@ -4,9 +4,8 @@
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   grid-template-columns: repeat(12, 1fr);
-  gap: 0px;
-  border-radius: 10px;
-  border-color: black;
+  gap: 10px;
+  background-color: black;
   grid-template-rows: repeat(6, 1fr);
 }
 .one {
