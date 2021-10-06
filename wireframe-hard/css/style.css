@@ -12,7 +12,8 @@
   grid-column-end: 5;
   grid-row: 1;
   padding: 75px;
-  background-color:#0093FF;
+  border: 10px #FFA700;
+  background-color: #0093FF;
   text-align: center;
 }
 .two {
