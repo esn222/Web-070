@@ -14,7 +14,7 @@
 }
 .one {
   grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column-end: 5;
   grid-row: 1;
   padding: 100px;
   background-color: #3D4BF5;
@@ -31,6 +31,7 @@
 .three {
   grid-column-start: 9;
   grid-column-end: 13;
+  position: fixed;
   grid-row: 1;
   padding: 100px;
   background-color:#3D4BF5;
