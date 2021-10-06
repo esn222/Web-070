@@ -103,7 +103,7 @@
 }
 .twelve {
   grid-column-start: 10;
-  grid-column-end: 13;
+  grid-column-end: 12;
   grid-row: 5;
   padding: 100px;
   background-color:#EAAC21;
