@@ -9,7 +9,7 @@
   border-color: black;
   grid-template-rows: repeat(6, 1fr);
 }
-.p {
+.one {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row: 1;
