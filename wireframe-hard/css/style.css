@@ -13,25 +13,44 @@
   border: 2px solid #FFA700;
   vertical-align:middle;
 }
+
+
+.wrapper2 {
+  display: grid;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  grid-template-rows: repeat(1, 1fr);
+}
+.wrapper >div {
+  display: grid;
+  color: white;
+  border: 2px solid #FFA700;
+  vertical-align:middle;
+}
+
+
 .one {
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 2;
   grid-row: 1;
   padding: 100px;
   background-color: #3D4BF5;
   text-align: center;
 }
 .two {
-  grid-column-start: 5;
-  grid-column-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row: 1;
   padding: 100px;
   background-color:#7BE7F0;
   text-align: center;
 }
 .three {
-  grid-column-start: 9;
-  grid-column-end: 13;
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row: 1;
   padding: 100px;
   background-color:#3D4BF5;
