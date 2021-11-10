@@ -13,7 +13,8 @@ body {
 }
 .wrapper >div {
   display: grid;
-  color:#4F6D7A;
+  color:#EAEAEA;
+  background-color: #4F6D7A;
   padding: 100px;
 }
 
