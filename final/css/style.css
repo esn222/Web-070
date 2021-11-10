@@ -68,3 +68,74 @@ body {
   grid-row-end: 9;
   background-color:#7BE7F0;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  grid-template-rows: repeat(10, 1fr);
+}
+.container >div {
+  display: grid;
+  color: white;
+  border-left: 5px solid #FFA700;
+  border-top: 5px solid #FFA700;
+  vertical-align: middle;
+  padding: 100px;
+}
+
+.eleven {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 1;
+  background-color: #3D4BF5;
+}
+.tweleve {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color:#7BE7F0;
+}
+.thirteen {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color:#3D4BF5;
+}
+.fourteen {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background-color:#E8C4A1;
+}
+.fifteen {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background-color:#EAAC21;
+}
+.sixteen {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  background-color:#3D4BF5;
+}
+.seventeen {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  background-color:#7BE7F0;
+}
+.eighteen {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color:#000000;
+}
