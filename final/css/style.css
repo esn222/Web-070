@@ -14,7 +14,6 @@ body {
 .wrapper >div {
   display: grid;
   color:#EAEAEA;
-  background-color: #4F6D7A;
   padding: 100px;
 }
 
@@ -22,7 +21,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 1;
-  background-color: #3D4BF5;
+  background-color: #4F6D7A;
 }
 .two {
   grid-column-start: 1;
@@ -36,7 +35,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 6;
-  background-color:#3D4BF5;
+  background-color:#4F6D7A;
 }
 .four {
   grid-column-start: 1;
