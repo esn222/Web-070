@@ -140,3 +140,54 @@ body {
   grid-row-end: 11;
   background-color:#000000;
 }
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0px;
+  grid-template-rows: repeat(10, 1fr);
+}
+.box >div {
+  display: grid;
+  color: white;
+  border-left: 5px solid #FFA700;
+  border-top: 5px solid #FFA700;
+  vertical-align: middle;
+  padding: 100px;
+}
+
+.alpha {
+  grid-column-start: 1;
+  grid-row: 1;
+  background-color: #3D4BF5;
+}
+.beta {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color:#7BE7F0;
+}
+.gamma {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background-color:#3D4BF5;
+}
+.delta {
+  grid-column-start: 1;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  background-color:#E8C4A1;
+}
+.epsilon {
+  grid-column-start: 1;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  background-color:#EAAC21;
+}
+.zeta {
+  grid-column-start: 1;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  background-color:#21ea86;
+}
