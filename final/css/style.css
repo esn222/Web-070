@@ -40,7 +40,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 4;
-  background-color:#7BE7F0;
+  background-color:#4F6D7A
 }
 .three {
   grid-column-start: 1;
@@ -48,35 +48,34 @@ body {
   grid-row-start: 4;
   grid-row-end: 6;
   background-color:#4F6D7A;
-  padding: 10px 10px 10px 10px;
 }
 .four {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 6;
   grid-row-end: 8;
-  background-color:#E8C4A1;
+  background-color:#4F6D7A;
 }
 .five {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 6;
   grid-row-end: 8;
-  background-color:#EAAC21;
+  background-color:#4F6D7A
 }
 .six {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 6;
   grid-row-end: 8;
-  background-color:#3D4BF5;
+  background-color:#4F6D7A;
 }
 .seven {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 8;
   grid-row-end: 9;
-  background-color:#7BE7F0;
+  background-color:#4F6D7A
 }
 
 .container {
@@ -205,15 +204,15 @@ body {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  background-color: #4F6D7A;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #EAEAEA;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -230,7 +229,7 @@ body {
   font-size: 16px; 
   border: none;
   outline: none;
-  color: white;
+  color: #EAEAEA;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -239,14 +238,14 @@ body {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #DD6E42;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #EAEAEA;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -255,7 +254,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #4F6D7A;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
