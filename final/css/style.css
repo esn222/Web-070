@@ -16,7 +16,7 @@ body {
 .wrapper >div {
   display: grid;
   color:#EAEAEA;
-  padding: 50px;
+  padding: 0px;
   max-height:100%;
   max-width:100%;
 }
