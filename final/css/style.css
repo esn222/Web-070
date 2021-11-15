@@ -272,7 +272,7 @@ body {
 }
 
 /* Style the button and place it in the middle of the container/image */
-.container .btn {
+.wrapper .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -287,6 +287,6 @@ body {
   border-radius: 5px;
 }
 
-.container .btn:hover {
+.wrapper .btn:hover {
   background-color: black;
 }
