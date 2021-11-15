@@ -48,6 +48,7 @@ body {
   grid-row-start: 4;
   grid-row-end: 6;
   background-color:#4F6D7A;
+  padding: 10px 10px 10px 10px;
 }
 .four {
   grid-column-start: 1;
