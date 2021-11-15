@@ -19,6 +19,12 @@ body {
   max-width:100%;
 }
 
+.p {
+  color: #EAEAEA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
 .one {
   grid-column-start: 1;
   grid-column-end: 4;
