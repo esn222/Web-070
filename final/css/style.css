@@ -273,7 +273,7 @@ body {
 
 /* Style the button and place it in the middle of the container/image */
 .four .btn {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -285,6 +285,7 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  display: inline-block
 }
 
 .four .btn:hover {
