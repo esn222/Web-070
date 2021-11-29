@@ -6,14 +6,14 @@ body {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   color:#EAEAEA;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 
 .p {
   color: #EAEAEA;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .fifteen h1 {
@@ -112,55 +112,41 @@ body {
     .footer2 { grid-area: footer2; }
 
     .box {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0px;
-    grid-template-rows: repeat(10, 1fr);
-  }
-  .box >div {
-    display: grid;
-    color: white;
-    border-left: 5px solid #FFA700;
-    border-top: 5px solid #FFA700;
-    vertical-align: middle;
-    padding: 100px;
-  }
-
-    .alpha {
-      grid-column-start: 1;
-      grid-row: 1;
-      background-color: #3D4BF5;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "header header header"
+        "footwear footwear footwear"
+        "backpack backpack backpack"
+        "apparel apparel apparel"
+        "accessories accessories accessories"
+        "footer3 footer3 footer3";
+      background: #4F6D7A;
     }
-    .beta {
-      grid-column-start: 1;
-      grid-row-start: 2;
-      grid-row-end: 4;
-      background-color:#7BE7F0;
+    
+    .header { grid-area: header; 
+    background: #4F6D7A;}
+    
+    .footwear { grid-area: footwear; 
+      background: #4F6D7A;}
+    
+    .backpack { grid-area: backpack; 
+      background: #4F6D7A;
     }
-    .gamma {
-      grid-column-start: 1;
-      grid-row-start: 4;
-      grid-row-end: 6;
-      background-color:#3D4BF5;
-    }
-    .delta {
-      grid-column-start: 1;
-      grid-row-start: 6;
-      grid-row-end: 8;
-      background-color:#E8C4A1;
-    }
-    .epsilon {
-      grid-column-start: 1;
-      grid-row-start: 8;
-      grid-row-end: 10;
-      background-color:#EAAC21;
-    }
-    .zeta {
-      grid-column-start: 1;
-      grid-row-start: 10;
-      grid-row-end: 11;
-      background-color:#21ea86;
-}
+    
+    .apparel { grid-area: apparel; 
+      background: #4F6D7A;}
+    
+    .accessories { grid-area: accessories; 
+      background: #4F6D7A;}
+    
+    .footer3 { grid-area: footer3; 
+      background: #4F6D7A;}
+    
 
 #menuToggle
 {
@@ -369,3 +355,51 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding: 16px 32px;
 }
+
+div.gallery {
+  border: 1px solid #DD6D40;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
