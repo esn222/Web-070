@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+
+
 body {
   margin: 0;
   text-align: left;
@@ -111,7 +113,7 @@ body {
     
     .footer2 { grid-area: footer2; }
 
-    .box {
+  .box {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.1fr;
@@ -126,6 +128,7 @@ body {
         "accessories accessories accessories"
         "footer3 footer3 footer3";
       background: #4F6D7A;
+      text-align: center;
     }
     
     .header { grid-area: header; 
@@ -356,6 +359,11 @@ body {
   padding: 16px 32px;
 }
 
+.box .h3 {
+  text-align: center;
+}
+
+
 div.gallery {
   border: 1px solid #DD6D40;
 }
@@ -392,14 +400,28 @@ div.desc {
 }
 
 @media only screen and (max-width: 500px) {
+  
   .responsive {
     width: 100%;
   }
-}
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+  .clearfix:after {
+   content: "";
+    display: table;
+    clear: both;
+  }
+
+.container {
+    grid-template-columns: 1fr;
+    }
+
+    .container .header2 .eleven .twelve .thirteen .fourteen .fifteen .sixteen .seventeen .eighteen .footer2 {
+      grid-column: auto;
+      grid-row: auto;  
+    }
+  
+  .header2 { grid-area: header2; 
+    width: 20vw;}
+
 }
 
